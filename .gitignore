@@ -8,3 +8,7 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+bower_components
+
+dist

@@ -8,6 +8,5 @@
   "description": "",
   "workspaces": [
     "./practices/**"
-  ],
-  "packageManager": "yarn@4.12.0"
+  ]
 }

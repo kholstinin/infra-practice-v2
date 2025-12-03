@@ -1,0 +1,19 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=development npx webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "5.103.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

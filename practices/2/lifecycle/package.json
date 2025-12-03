@@ -1,0 +1,16 @@
+{
+  "name": "lifecycle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "echo before",
+    "prepack": "echo start",
+    "postpack": "echo end",
+    "postinstall": "echo installed",
+    "install": "yarn --inline-builds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
