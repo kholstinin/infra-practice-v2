@@ -1,0 +1,13 @@
+{
+  "name": "infra-v2-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "./practices/**"
+  ],
+  "packageManager": "yarn@4.12.0"
+}
