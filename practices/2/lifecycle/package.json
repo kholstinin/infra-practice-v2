@@ -6,8 +6,7 @@
     "prepare": "echo before",
     "prepack": "echo start",
     "postpack": "echo end",
-    "postinstall": "echo installed",
-    "install": "yarn --inline-builds"
+    "postinstall": "echo installed"
   },
   "keywords": [],
   "author": "",
