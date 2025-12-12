@@ -1,0 +1,6 @@
+{
+  "jsPlugins": ["./oxlint-my-plugin/index.js"],
+  "rules": {
+    "myPlugin/custom-rule": "error"
+  }
+}
