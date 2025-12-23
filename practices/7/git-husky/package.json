@@ -1,0 +1,15 @@
+{
+  "name": "git-husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx husky init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

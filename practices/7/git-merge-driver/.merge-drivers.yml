@@ -1,0 +1,4 @@
+merge-drivers:
+  yarn:
+    name: "yarn merge driver"
+    driver: "yarn install"
