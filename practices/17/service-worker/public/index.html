@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Service Worker Demo</title>
+  </head>
+  <body>
+    <h1>Service Worker Demo</h1>
+
+    <button id="load">Load API Time</button>
+    <pre id="out"></pre>
+
+    <script src="./app.js"></script>
+
+    <script>
+      // Регистрация Service Worker
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js").then(() => {
+          console.log("SW registered");
+        });
+      }
+    </script>
+  </body>
+</html>

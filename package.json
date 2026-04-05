@@ -7,6 +7,12 @@
   "license": "ISC",
   "description": "",
   "workspaces": [
-    "./practices/**"
-  ]
+    "./practices/**",
+    "./apps/**",
+    "./packages/**"
+  ],
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "nx": "22.3.3"
+  }
 }
